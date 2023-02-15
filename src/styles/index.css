@@ -1,0 +1,171 @@
+/* appbar */
+.home-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.toolbar {
+  /* min-width: 900px !important; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.appbar-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+.app-name {
+  color: #1976d2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.app-name:hover {
+  cursor: pointer;
+}
+
+.appbar-search-paper {
+  width: 400px;
+  position: relative;
+  left: 150px;
+}
+
+.appbar-search-input {
+  margin: 9px 0 0 12px;
+  width: 330px;
+}
+
+.appbar-search-icon {
+  float: right;
+}
+
+.appbar-search-icon:hover {
+  cursor: default;
+}
+
+.appbar-right {
+  width: 450px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.appbar-right.guest {
+  width: 180px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.appbar-notify {
+  margin: 0 15px 0 0 !important;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.login-logout-prefix {
+  margin: 0 15px 0 0;
+}
+
+.notify-popover {
+  margin: 9px 0 0 0;
+}
+
+#notify-container {
+  width: 300px;
+  min-height: 200px;
+}
+
+#notify-sub1 {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #115294;
+  border-bottom: 2px solid #115294;
+}
+
+#notify-sub2 {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+
+#switch-lan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  line-height: 20px;
+  width: 100px;
+  height: 48px;
+  position: relative;
+  bottom: 1px;
+}
+
+.notify-div {
+  font-weight: bold;
+  width: 100%;
+  height: 20px;
+  padding: 10px;
+  line-height: 20px;
+  border: 1px solid red;
+}
+
+.notify-div:hover {
+  color: #1976d2;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* navbar */
+.navbar-tabs {
+  position: relative;
+}
+
+.navbar-tabs .MuiTab-root {
+  width: 100px !important;
+  min-width: 100px !important;
+}
+
+.navbar-tabs #tab-9 {
+  /* position: absolute;
+  right: 0; */
+
+  position: relative;
+  left: 23.5%;
+  width: 200px !important;
+  min-width: 200px !important;
+}
+
+.MuiTabs-root.navbar-tabs {
+  overflow: auto !important;
+}
+
+.MuiTabs-root.navbar-tabs .MuiTabs-scroller.MuiTabs-fixed {
+  overflow-x: auto !important;
+}

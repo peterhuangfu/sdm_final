@@ -1,0 +1,145 @@
+.personal-wrapper {
+  width: 80%;
+  min-height: 103vh;
+  position: relative;
+  left: 10%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0 0 0;
+}
+
+.big-avatar-container {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 10px 0 0 0;
+}
+
+.big-avatar-container span {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+.personal-avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.change-avatar-btn {
+  margin: 20px 0 0 0 !important;
+}
+
+.personal-info-container {
+  width: 800px;
+  height: auto;
+}
+
+.personal-menu {
+  width: 100%;
+}
+
+.personal-menu .MuiTab-root {
+  width: 25% !important;
+  min-width: 100px !important;
+}
+
+.personal-content-container {
+  width: 100%;
+  height: auto;
+  min-height: 570px;
+  margin: 20px 0 0 0;
+  /* border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px; */
+}
+
+.launch {
+  height: auto;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.launch .user-introduction,
+.launch .user-interest-games,
+.launch .user-specialty {
+  width: 95%;
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+.launch .user-introduction .prefix,
+.launch .user-interest-games .prefix,
+.launch .user-specialty .prefix {
+  width: 95%;
+  height: 30px;
+  font-weight: bold;
+}
+
+.launch .user-introduction .MuiFormControl-root.MuiTextField-root,
+.launch .user-interest-games .MuiFormControl-root.MuiTextField-root,
+.launch .user-specialty .MuiFormControl-root.MuiTextField-root  {
+  position: relative !important;
+  /* right: 50px !important; */
+  /* bottom: 40px !important; */
+  width: 100% !important;
+}
+
+#personal-introduction {
+  width: 100%;
+  display: inline-block;
+  margin: 15px 0 0 0;
+}
+
+#personal-introduction-editable {
+  
+}
+
+.user-introduction .box, .user-interest-games .box {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.user-introduction .btn, .user-interest-games .btn {
+  float: right !important;
+  position: relative !important;
+  bottom: 2px !important;
+}
+
+.interest-games {
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+}
+
+.interest-games .chip, .user-specialty .chip {
+  margin: 0 5px 0 0;
+}
+
+#personal-interest-games-editable {
+  width: 300px !important;
+}
+
+#personal-score {
+  
+}
+
+.launch-article-container {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
